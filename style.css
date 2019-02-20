@@ -6,6 +6,13 @@ body
 	font-family: 'Slabo 27px', serif;
 }
 
+h1
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
 #logo
 {
 	width: 100%;
@@ -80,12 +87,11 @@ ol > li > ul > li:before
 	content: "♛";
 }
 
-
-
-
-
-
-
+.slajd
+{
+	padding: 20px 40px;
+	text-align: justify;
+}
 
 
 
