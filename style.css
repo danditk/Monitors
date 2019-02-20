@@ -1,0 +1,19 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/tlo.png");
+	margin: 0px;
+	font-family: 'Slabo 27px', serif;
+}
+
+#logo
+{
+	width: 100%;
+	height: 50px;
+	background-color: #cc33ff;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding:5px 0px 5px 0px;
+}
