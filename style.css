@@ -13,6 +13,24 @@ h1
 	font-weight: 700;
 }
 
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+
 #logo
 {
 	width: 100%;
