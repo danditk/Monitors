@@ -42,12 +42,12 @@ body
 	padding-left: 100px;
 }
 
-ol.chapters
+ol
 {
 	margin-top: 5px;
 }
 
-ol.chapters > li
+ol > li
 {
 	text-sixe: 22px;
 	text-transform: uppercase;
@@ -56,7 +56,7 @@ ol.chapters > li
 	letter-spacing: 3px;
 }
 
-ol.chapters > li > ul
+ol > li > ul
 {
 	font-size: 18px;
 	text-transform: none;
@@ -64,18 +64,20 @@ ol.chapters > li > ul
 	padding: 0px;
 	letter-spacing: 0px;
 	margin-top: 5px;
-	margin-left: 30px
+	margin-left: 30px;
+	list-style-type: none;
 }
 
-ol.chapters > li > ul > li
+ol > li > ul > li
 {
 	margin: 0px;
-	
 }
 
-ol.authors
+ol > li > ul > li:before
 {
-	color: blue:
+	color: #aa11dd;
+	margin-right: 20px;
+	content: "♛";
 }
 
 
