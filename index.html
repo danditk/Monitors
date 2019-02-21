@@ -16,13 +16,13 @@
 	
 	<script>
 		
-		jquery(function($)
+		jQuery(function($)
 		{
 			//reset scroll
 			$.scrollTo(0);
-			$('#link1').click(function() { $.scrollTo($('#budowacrt'), 500);});
-			$('#link2').click(function() { $.scrollTo($('#dzialaniecrt'), 500);});
-			$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500);});
+			$('#slajd_1_1').click(function() { $.scrollTo($('#budowacrt'), 500);});
+			$('#slajd_1_2').click(function() { $.scrollTo($('#dzialaniecrt'), 500);});
+			$('#slajd_1_3').click(function() { $.scrollTo($('#maskicrt'), 500);});
 		}
 		);
 	
@@ -34,14 +34,17 @@
 	<div id="logo">Wykład #1 Monitory komputerowe</div>
 	
 	<div id="container">
+	
+		<a href="#" class="scrollup"></a>
+	
 		<div id="spis">
 			<ol>
 				<li>
 					Monitory kineskopowe CRT
 					<ul>
-						<li><a id="link1" href="#">Budowa monitora</a></li>
-						<li><a id="link2" href="#">Zasada działania</a></li>
-						<li><a id="link3" href="#">Maska. Rodzaje masek w monitorach</a></li>
+						<li><a id="slajd_1_1" href="#">Budowa monitora</a></li>
+						<li><a id="slajd_1_2" href="#">Zasada działania</a></li>
+						<li><a id="slajd_1_3" href="#">Maska. Rodzaje masek w monitorach</a></li>
 						<li><a href="#wadycrt">Wady i zalety</a></li>
 						<li><a href="#doborcrt">Dobór parametrów</a></li>
 					</ul>								
