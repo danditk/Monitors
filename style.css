@@ -171,3 +171,8 @@ ol > li > ul > li:before
 	width: 160px;
 	float: left;
 }
+
+a#footerlink:hover
+{
+	color: white;
+}
