@@ -60,12 +60,12 @@ a:active
 	text-transform: uppercase;
 	padding:5px 0px 5px 0px;
 	letter-spacing: 3px;
-	border-bottom: 2px solid #9900aa;
+	border-bottom: 2px solid #880099;
 	text-shadow:
-	2px 2px 0 #9900aa,
-	-2px 2px 0 #9900aa,
-	-2px -2px 0 #9900aa,
-	2px -2px 0 #9900aa;
+	2px 2px 0 #880099,
+	-2px 2px 0 #880099,
+	-2px -2px 0 #880099,
+	2px -2px 0 #880099;
 }
 
 #container
@@ -132,17 +132,17 @@ ol > li > ul > li:before
 #footer
 {
 	width: 100%;
-	height: 150px;
+	height: 120px;
 	background-color: #aa11dd;
+	text-align: center;
 	color: white;
-	padding:10px;
 	letter-spacing: 1px;
-	border-top: 2px solid #9900aa;
+	border-top: 2px solid #880099;
 	text-shadow:
-	2px 2px 0 #9900aa,
-	-2px 2px 0 #9900aa,
-	-2px -2px 0 #9900aa,
-	2px -2px 0 #9900aa;
+	2px 2px 0 #880099,
+	-2px 2px 0 #880099,
+	-2px -2px 0 #880099,
+	2px -2px 0 #880099;
 }
 
 #footerbox
@@ -151,16 +151,21 @@ ol > li > ul > li:before
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom:auto;
-	width: 800px;
+	width: 940px;
 }
 
 #footertext
 {
-	padding: 20px 0px 20px 0px;
+	padding: 15px 10px 15px 10px;
 	font-size: 24px;
-	margin-right: 10px;
 	text-align: right;
-	width: 750px; /* można wyrazić w procentach */
-	height: 60px;
+	width: 740px;
+	float: left;
+}
+
+#footerimg
+{
+	padding: 15px 10px 15px 10px;
+	width: 160px;
 	float: left;
 }
