@@ -23,7 +23,17 @@
 			$('#slajd_1_1').click(function() { $.scrollTo($('#budowacrt'), 500);});
 			$('#slajd_1_2').click(function() { $.scrollTo($('#dzialaniecrt'), 500);});
 			$('#slajd_1_3').click(function() { $.scrollTo($('#maskicrt'), 500);});
+			
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000);});
 		}
+		);
+				
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();
+		}		
 		);
 	
 	</script>
