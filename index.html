@@ -20,11 +20,27 @@
 		{
 			//reset scroll
 			$.scrollTo(0);
+			
 			$('#slajd_1_1').click(function() { $.scrollTo($('#budowacrt'), 500);});
 			$('#slajd_1_2').click(function() { $.scrollTo($('#dzialaniecrt'), 500);});
 			$('#slajd_1_3').click(function() { $.scrollTo($('#maskicrt'), 500);});
+			$('#slajd_1_4').click(function() { $.scrollTo($('#wadycrt'), 500);});
+			$('#slajd_1_5').click(function() { $.scrollTo($('#doborcrt'), 500);});
 			
-			$('.scrollup').click(function() { $.scrollTo($('body'), 1000);});
+			$('#slajd_2_1').click(function() { $.scrollTo($('#budowalcd'), 700);});
+			$('#slajd_2_2').click(function() { $.scrollTo($('#dzialanielcd'), 700);});
+			$('#slajd_2_3').click(function() { $.scrollTo($('#podziallcd'), 700);});
+			$('#slajd_2_4').click(function() { $.scrollTo($('#wadylcd'), 700);});
+			$('#slajd_2_5').click(function() { $.scrollTo($('#doborlcd'), 700);});
+			
+			$('#slajd_3_1').click(function() { $.scrollTo($('#dsub'), 900);});
+			$('#slajd_3_2').click(function() { $.scrollTo($('#dvi'), 900);});
+			$('#slajd_3_3').click(function() { $.scrollTo($('#hdmi'), 900);});
+			
+			$('#slajd_4_1').click(function() { $.scrollTo($('#przyszlosc'), 1000);});
+			$('#slajd_4_2').click(function() { $.scrollTo($('#zrodla'), 1000);});
+			
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1500);});
 		}
 		);
 				
@@ -55,33 +71,33 @@
 						<li><a id="slajd_1_1" href="#">Budowa monitora</a></li>
 						<li><a id="slajd_1_2" href="#">Zasada działania</a></li>
 						<li><a id="slajd_1_3" href="#">Maska. Rodzaje masek w monitorach</a></li>
-						<li><a href="#wadycrt">Wady i zalety</a></li>
-						<li><a href="#doborcrt">Dobór parametrów</a></li>
+						<li><a id="slajd_1_4" href="#">Wady i zalety</a></li>
+						<li><a id="slajd_1_5" href="#">Dobór parametrów</a></li>
 					</ul>								
 				</li>
 				<li>
 					Monitory ciekłokrystaliczne LCD
 					<ul>
-						<li>Budowa monitora</li>
-						<li>Zasada działania</li>
-						<li>Maska. Rodzaje masek w monitorach</li>
-						<li>Wady i zalety</li>
-						<li>Dobór parametrów</li>
+						<li><a id="slajd_2_1" href="#">Budowa monitora</a></li>
+						<li><a id="slajd_2_2" href="#">Zasada działania</a></li>
+						<li><a id="slajd_2_3" href="#">Podział matryc</a></li>
+						<li><a id="slajd_2_4" href="#">Wady i zalety</a></li>
+						<li><a id="slajd_2_5" href="#">Dobór parametrów</a></li>
 					</ul>
 				</li>
 				<li>
 					Sposoby podłączenia monitorów
 					<ul>
-						<li>DSUB</li>
-						<li>DVI</li>
-						<li>HDMI, Display Port</li>
+						<li><a id="slajd_3_1" href="#">DSUB</a></li>
+						<li><a id="slajd_3_2" href="#">DVI</a></li>
+						<li><a id="slajd_3_3" href="#">HDMI, Display Port</a></li>
 					</ul>	
 				</li>
 				<li>
 					Dodatkowe informacje
 					<ul>
-						<li>Przyszłość monitorów i wyświetlaczy?</li>
-						<li>Wykorzystane źródła</li>
+						<li><a id="slajd_4_1" href="#">Przyszłość monitorów i wyświetlaczy?</a></li>
+						<li><a id="slajd_4_2" href="#">Wykorzystane źródła</a></li>
 					</ul>
 				</li>
 			</ol>
@@ -283,7 +299,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Budowa monitora LCD</h1>
+			<h1 id="budowalcd">Budowa monitora LCD</h1>
 			
 			LCD to akronim od Liquid Crystal Display - wyświetlacz ciekłokrystaliczny to urządzenie, którego zasada działania oparta jest na zmianie polaryzacji światła na skutek zmian orientacji cząsteczek ciekłego kryształu pod wpływem przyłożonego pola elektrycznego.
 			<br /><br />
@@ -307,7 +323,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Zasada działania monitora LCD</h1>
+			<h1 id="dzialanielcd">Zasada działania monitora LCD</h1>
 			
 			Zasada tworzenia obrazu w kolorowym monitorze LCD jest nieco inna niż w monitorach CRT. Zrezygnowano z działa elektronowego, dzięki czemu monitor ma dużo mniejsze gabaryty i wagę. Źródłem światła są najczęściej <strong>cienkie lampy jarzeniowe</strong> (albo <strong>diody LED</strong> w dużo droższych monitorach ledowych). Światło jest przepuszczane przez <strong>filtr polaryzacyjny</strong>, który przepuszcza fale świetlne o określonej fazie. Następnie strumień światła tafia na filtr z poziomymi szczelinami, po czym przechodzi przez warstwę polikrzemową zwaną ciekłymi kryształami i trafia na drugi filtr z pionowymi szczelinami. 
 			<br /><br />
@@ -327,7 +343,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Podział matryc w monitorach LCD</h1>
+			<h1 id="podziallcd">Podział matryc w monitorach LCD</h1>
 			
 			<strong>Matryce pasywne</strong> stosowano w początkach technologii LCD - pojedyncze tranzystory sterowały całymi wierszami i kolumnami pikseli. Monitory oparte na matrycach pasywnych smużyły (miały wolny czas reakcji, pojawiały się smugi i cienie).
 			<br /><br />
@@ -386,7 +402,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Wady i zalety monitorów LCD</h1>
+			<h1 id="wadylcd">Wady i zalety monitorów LCD</h1>
 			
 			Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory LCD praktycznie całkowicie wyparły z rynku monitory kineskopowe, niemniej jednak wcale nie oznacza to, iż są pozbawione wszelkich wad.
 			<br /><br />
@@ -413,7 +429,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Dobór parametrów monitora LCD</h1>
+			<h1 id="doborlcd">Dobór parametrów monitora LCD</h1>
 			
 			W monitorach LCD przekątna ekranu wynosi dokładnie tyle, ile deklaruje producent, ponieważ panele ciekłokrystaliczne mają idealnie płaskie ekrany.
 			<br /><br />
@@ -482,7 +498,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Złącze analogowe DSUB (VGA)</h1>
+			<h1 id="dsub">Złącze analogowe DSUB (VGA)</h1>
 			
 			Złącze popularne w czasach monitorów CRT - niepożądane w monitorze LCD, ponieważ zachodzi wówczas dwukrotna konwersja sygnału: zamiana sygnału cyfrowego na analogowy w karcie graficznej oraz sygnału analogowego na cyfrowy w monitorze. Podwójna konwersja powoduje straty w jakości obrazu i zwiększa podatność na zakłócenia. Nazwa DSUB pochodzi od rodzaju złącz przypominających kształtem położoną literę D. Inna nazwa to VGA (od trybu graficznego).
 			<br /><br />
@@ -501,7 +517,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Złącze cyfrowe DVI (Digital Video Interface)</h1>
+			<h1 id="dvi">Złącze cyfrowe DVI (Digital Video Interface)</h1>
 			
 			Cyfrowy standard przesyłania sygnału wideo, w odmianach DVI-I oraz DVI-A umożliwia także przesyłanie sygnału analogowego. Kabel łączący monitor z komputerem nie może być dłuższy niż 5m.
 			<br /><br />
@@ -550,7 +566,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Nowoczesne złącza cyfrowe HDMI oraz Display Port</h1>
+			<h1 id="hdmi">Nowoczesne złącza cyfrowe HDMI oraz Display Port</h1>
 			
 			<strong>Złącze HDMI</strong> (High Definition Multimedia Interface) to cyfrowy standard przesyłania sygnału audio/wideo umożliwiający transmisję w wysokiej rozdzielczości (HD) oraz dźwięku wielokanałowego. Stosujemy go w odtwarzaczach DVD, Blu-Ray, telewizorach typu LCD i plazmowych oraz konsolach do gier. Maksymalna długość kabla: 15m.
 			<br /><br />			
@@ -582,7 +598,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Przyszłość monitorów i wyświetlaczy?</h1>
+			<h1 id="przyszlosc">Przyszłość monitorów i wyświetlaczy?</h1>
 			
 			Producenci wciąż prześcigają się w tworzeniu nowych technologii, które zapewnią jeszcze lepsze parametry wyświetlanego obrazu, a jednocześnie mniejsze koszty produkcji. Jaka technologia opanuje rynek w najbliższej przyszłości? Jakie znamy nowatorskie metody budowy wyświetlaczy?
 			<br /><br />
@@ -609,7 +625,7 @@
 		
 		<div class="slajd">
 		
-			<h1>Wykorzystane źródła</h1>
+			<h1 id="zrodla">Wykorzystane źródła</h1>
 			
 			<ul>
 				<li>Urządzenia techniki komputerowej. Podręcznik do nauki zawodu technik informatyk. Helion. Tomasz Kowalski</li>
