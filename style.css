@@ -27,8 +27,14 @@ a:visited
 
 a:hover
 {
-	color: black;
-	text-decoration: none;
+	color: #aa11dd;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: #aa11dd;
+	text-decoration: underline;
 }
 
 #logo

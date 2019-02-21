@@ -22,5 +22,6 @@ What I lerned:
 
 	knowlage source - yt -- overment "Praktyczny kurs GIT"
 
-#HTML
+#HTML:
+	- <!-- ############# CONTENT ################ -->				comments in HTML
 

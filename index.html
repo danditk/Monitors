@@ -10,6 +10,24 @@
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jquery(function($)
+		{
+			//reset scroll
+			$.scrollTo(0);
+			$('#link1').click(function() { $.scrollTo($('#budowacrt'), 500);});
+			$('#link2').click(function() { $.scrollTo($('#dzialaniecrt'), 500);});
+			$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500);});
+		}
+		);
+	
+	</script>
+	
 </head>
 
 <body>
@@ -21,9 +39,9 @@
 				<li>
 					Monitory kineskopowe CRT
 					<ul>
-						<li><a href="#budowacrt">Budowa monitora</a></li>
-						<li><a href="#dzialaniecrt">Zasada działania</a></li>
-						<li><a href="#maskicrt">Maska. Rodzaje masek w monitorach</a></li>
+						<li><a id="link1" href="#">Budowa monitora</a></li>
+						<li><a id="link2" href="#">Zasada działania</a></li>
+						<li><a id="link3" href="#">Maska. Rodzaje masek w monitorach</a></li>
 						<li><a href="#wadycrt">Wady i zalety</a></li>
 						<li><a href="#doborcrt">Dobór parametrów</a></li>
 					</ul>								
